@@ -11,181 +11,190 @@
     <!-- /Meta Tag -->
 
     <!-- ========== CSS ========== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- ========== /CSS ========== -->
 </head>
 <body>
     <header>
-        <div class="logo-header">
-            <img src="alura-logo.png" alt="Logo de letras brancas, escrito: Alura">
+        <div class="header-content container">
+            <div class="logo-header">
+                <a href="#"><img src="img/alura-logo.png" alt="Logo de letras brancas, escrito: Alura"></a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="O que você quer aprender?">
+                <a href="#"><img src="img/busca.png" alt=""></a>
+            </div>
+            <nav class="main-menu">
+                <ul class="guides">
+                    <li><a href="#">FORMAÇÕES</a></li>
+                    <li><a href="#">PARA EMPRESAS</a></li>
+                    <li><a href="#">COMO FUNCIONA</a></li>
+                </ul>
+                <ul class="login"> 
+                    <li class="border-enter"><a href="#">ENTRAR</a></li> 
+                    <li class="register"><a href="#">MATRICULE-SE</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="search-bar">
-            <input type="text">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="#">FORMAÇÕES</a></li>
-                <li><a href="#">PARA EMPRESAS</a></li>
-                <li><a href="#">COMO FUNCIONA</a></li>
-                <li><a href="#">ENTRAR</a></li> 
-                <li><a href="#">MATRICULE-SE</a></li>
-            </ul>
-        </nav>
     </header>
-    <section class="top container">
-        <article class="top-background">
-            <aside class="top-text">
-                <h1>Cursos de Tecnologia e Negócios Digitais</h1>
-                <h3>Você vai estudar, praticar, discutir e aprender em uma comunidade de inquietos e inovadores</h3>
-            </aside>
-            <img src="background-top.png" alt="Um desenho branco transparente de um prédio e uma ponte com pequeno helicóptero sobrevoando.">
-        </article>
-        <article class="top-cards">
-            <ul>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="mobile.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Mobile</h4>
-                        </li>
-                        <li>
-                            <a href="#">Flutter, React Native, </a>
-                            <a href="#">iOS e Swift, </a>
-                            <a href="#">Android e Kotlin, </a>
-                            <a href="#">Jogos, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="programacao.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Programação</h4>
-                        </li>
-                        <li>
-                            <a href="#">Lógica, </a>
-                            <a href="#">Python, </a>
-                            <a href="#">PHP, </a>
-                            <a href="#">Java, </a>
-                            <a href="#">.NET, </a>
-                            <a href="#">Node JS, </a>
-                            <a href="#">Ruby & Rails, </a>
-                            <a href="#">C, </a>
-                            <a href="#">Computação, </a>
-                            <a href="#">Jogos, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="front-end.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Front-end</h4>
-                        </li>
-                        <li>
-                            <a href="#">HTML, CSS, </a>
-                            <a href="#">React, </a>
-                            <a href="#">Angular, </a>
-                            <a href="#">JavaScript, </a>
-                            <a href="#">jQuery, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="infraestrutura.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Infraestrutura</h4>
-                        </li>
-                        <li>
-                            <a href="#">DevOps e Git, </a>
-                            <a href="#">Cloud, </a>
-                            <a href="#">Linux, </a>
-                            <a href="#">IoT, </a>
-                            <a href="#">Redes, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="design-ux.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Design & UX</h4>
-                        </li>
-                        <li>
-                            <a href="#">Photoshop Illustrator </a>
-                            <a href="#">Usabilidade e UX, </a>
-                            <a href="#">Vídeo e Motion, </a>
-                            <a href="#">3D, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="marketing-digital.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Marketing Digital</h4>
-                        </li>
-                        <li>
-                            <a href="#">Ads, </a>
-                            <a href="#">Marketing, </a>
-                            <a href="#">SEO, </a>
-                            <a href="#">E-commerce, </a>
-                            <a href="#">Social Media, </a>
-                            <a href="#">YouTube, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="data-science.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Data Science</h4>
-                        </li>
-                        <li>
-                            <a href="#">SQL e Banco de Dados, </a> 
-                            <a href="#">NoSQL, </a>
-                            <a href="#">Data Science, </a>
-                            <a href="#">Machine Learning, </a>
-                            <a href="#">BI, </a>
-                            <a href="#">Estatística, </a>
-                            <a href="#">Excel, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="inovacao-gestao.png" alt="">
-                            <span>Cursos de</span>
-                            <h4>Inovação & Gestão</h4>
-                        </li>
-                        <li>
-                            <a href="#">Métodos Ágeis, </a>
-                            <a href="#">Softskills, </a>
-                            <a href="#">Liderença e Gestão, </a>
-                            <a href="#">Startups e Empreendorismo, </a>
-                            <a href="#">Vendes, </a>
-                            <a href="#">e mais...</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
+    <section class="upper">
+        <div class="container">
+            <article class="top-background">
+                <aside class="top-text">
+                    <h1>Cursos de Tecnologia e Negócios Digitais</h1>
+                    <h3>Você vai estudar, praticar, discutir e aprender em uma comunidade de inquietos e inovadores</h3>
+                </aside>
+                <img src="img/background-top.png" alt="Um desenho branco transparente de um prédio e uma ponte com pequeno helicóptero sobrevoando.">
+            </article>
+            <article class="top-cards">
+                <ul>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/mobile.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Mobile</h4>
+                            </li>
+                            <li>
+                                <a href="#">Flutter, React Native, </a>
+                                <a href="#">iOS e Swift, </a>
+                                <a href="#">Android e Kotlin, </a>
+                                <a href="#">Jogos, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/programacao.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Programação</h4>
+                            </li>
+                            <li>
+                                <a href="#">Lógica, </a>
+                                <a href="#">Python, </a>
+                                <a href="#">PHP, </a>
+                                <a href="#">Java, </a>
+                                <a href="#">.NET, </a>
+                                <a href="#">Node JS, </a>
+                                <a href="#">Ruby & Rails, </a>
+                                <a href="#">C, </a>
+                                <a href="#">Computação, </a>
+                                <a href="#">Jogos, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/front-end.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Front-end</h4>
+                            </li>
+                            <li>
+                                <a href="#">HTML, CSS, </a>
+                                <a href="#">React, </a>
+                                <a href="#">Angular, </a>
+                                <a href="#">JavaScript, </a>
+                                <a href="#">jQuery, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/infraestrutura.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Infraestrutura</h4>
+                            </li>
+                            <li>
+                                <a href="#">DevOps e Git, </a>
+                                <a href="#">Cloud, </a>
+                                <a href="#">Linux, </a>
+                                <a href="#">IoT, </a>
+                                <a href="#">Redes, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/design-ux.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Design & UX</h4>
+                            </li>
+                            <li>
+                                <a href="#">Photoshop Illustrator </a>
+                                <a href="#">Usabilidade e UX, </a>
+                                <a href="#">Vídeo e Motion, </a>
+                                <a href="#">3D, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/marketing-digital.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Marketing Digital</h4>
+                            </li>
+                            <li>
+                                <a href="#">Ads, </a>
+                                <a href="#">Marketing, </a>
+                                <a href="#">SEO, </a>
+                                <a href="#">E-commerce, </a>
+                                <a href="#">Social Media, </a>
+                                <a href="#">YouTube, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/data-science.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Data Science</h4>
+                            </li>
+                            <li>
+                                <a href="#">SQL e Banco de Dados, </a> 
+                                <a href="#">NoSQL, </a>
+                                <a href="#">Data Science, </a>
+                                <a href="#">Machine Learning, </a>
+                                <a href="#">BI, </a>
+                                <a href="#">Estatística, </a>
+                                <a href="#">Excel, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/inovacao-gestao.png" alt="">
+                                <span>Cursos de</span>
+                                <h4>Inovação & Gestão</h4>
+                            </li>
+                            <li>
+                                <a href="#">Métodos Ágeis, </a>
+                                <a href="#">Softskills, </a>
+                                <a href="#">Liderença e Gestão, </a>
+                                <a href="#">Startups e Empreendorismo, </a>
+                                <a href="#">Vendes, </a>
+                                <a href="#">e mais...</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </div>
     </section>
     <main class="main-content container">
         <section class="features">
@@ -196,7 +205,7 @@
                     <li>
                         <ul>
                             <li>
-                                <img src="img-features-1.png" alt="Foguete com degrade amarelo para o laranja">
+                                <img src="img/img-features-1.png" alt="Foguete com degrade amarelo para o laranja">
                             </li>
                             <li>
                                 <h3>O conteúdo que você precisa</h3>
@@ -207,7 +216,7 @@
                     <li>
                         <ul>
                             <li>
-                                <img src="img-features-2.png" alt="Lápis cruzado em X com uma reguá o sobrepondo">
+                                <img src="img/img-features-2.png" alt="Lápis cruzado em X com uma reguá o sobrepondo">
                             </li>
                             <li>
                                 <h3>Conhecimento real</h3>
@@ -218,7 +227,7 @@
                     <li>
                         <ul>
                             <li>
-                                <img src="img-features-3.png" alt="Desenhos de duas pessoas conversando com um balão em cima da cabeça.">
+                                <img src="img/img-features-3.png" alt="Desenhos de duas pessoas conversando com um balão em cima da cabeça.">
                             </li>
                             <li>
                                 <h3>Aprenda compartilhando</h3>
@@ -237,7 +246,7 @@
         </section>
         <section class="formations">
             <div class="formations-head">
-                <img src="img-formations.png" alt="Imagem de uma placa">
+                <img src="img/img-formations.png" alt="Imagem de uma placa">
                 <h3>Não sabe por onde começar?</h3>
                 <h2>Sequências de cursos organizados em Formações</h2>
             </div>
@@ -245,7 +254,7 @@
                 <li>
                     <ul>
                         <li>
-                            <img src="mobile.png" alt="">
+                            <img src="img/mobile.png" alt="">
                             <h4>Mobile</h4>
                         </li>
                         <li>
@@ -262,7 +271,7 @@
                 <li>
                     <ul>
                         <li>
-                            <img src="programacao.png" alt="">
+                            <img src="img/programacao.png" alt="">
                             <h4>Programação</h4>
                         </li>
                         <li>
@@ -289,7 +298,7 @@
                 <li>
                     <ul>
                         <li>
-                            <img src="front-end.png" alt="">
+                            <img src="img/front-end.png" alt="">
                             <h4>Front-end</h4>
                         </li>
                         <li>
@@ -306,7 +315,7 @@
                 <li>
                     <ul>
                         <li>
-                            <img src="infraestrutura.png" alt="">
+                            <img src="img/infraestrutura.png" alt="">
                             <h4>Infraestrutura</h4>
                         </li>
                         <li>
@@ -326,7 +335,7 @@
                 <li>
                     <ul>
                         <li>
-                            <img src="design-ux.png" alt="">
+                            <img src="img/design-ux.png" alt="">
                             <h4>Design & UX</h4>
                         </li>
                         <li>
@@ -351,7 +360,7 @@
                 <li>
                     <ul>
                         <li>
-                            <img src="data-science.png" alt="">
+                            <img src="img/data-science.png" alt="">
                             <h4>Data Science</h4>
                         </li>
                         <li>
@@ -370,7 +379,7 @@
                 <li>
                     <ul>
                         <li>
-                            <img src="margeking-digital.png" alt="">
+                            <img src="img/margeking-digital.png" alt="">
                             <h4>Marketing Digital</h4>
                         </li>
                         <li>
@@ -384,7 +393,7 @@
                 <li>
                     <ul>
                         <li> 
-                            <img src="inovacao-gestao.png" alt="">
+                            <img src="img/inovacao-gestao.png" alt="">
                             <h4>Inovação & Gestão</h4>
                         </li>
                         <li>
@@ -407,15 +416,15 @@
         </section>
         <section class="graduates">
             <article class="graduates-title">
-                <img src="aspas.png" alt="">
+                <img src="img/aspas.png" alt="">
                 <h3>Experiências de quem</h3>
                 <h2>já estudou com a gente</h2>
             </article>
 
             <article class="graduates-box">
                 <div class="left-box">
-                    <img src="graduate-1.png" alt="">
-                    <img src="aspas.png" alt="">
+                    <img src="img/graduate-1.png" alt="">
+                    <img src="img/aspas.png" alt="">
                     <h4>Genilton Souza</h4>
                     <p>
                         Se você não sabe a ordem do que deve aprender e praticar para dominar uma tecnologia, 
@@ -427,8 +436,8 @@
 
             <article class="graduates-box">
                 <div class="middle-box"></div>
-                <img src="graduate-2.png" alt="">
-                <img src="aspas.png" alt="">
+                <img src="img/graduate-2.png" alt="">
+                <img src="img/aspas.png" alt="">
                 <h4>Leandro da Silva</h4>
                 <p>
                     Passei dois anos e meio desempregado e foi onde conheci os cursos da Alura. 
@@ -439,8 +448,8 @@
             </article>
             <article class="graduates-box">
                 <div class="right-box"></div>
-                <img src="graduate-3.png" alt="">
-                <img src="aspas.png" alt="">
+                <img src="img/graduate-3.png" alt="">
+                <img src="img/aspas.png" alt="">
                 <h4>Nádia Oliveira</h4>
                 <p>
                     A plataforma é incrível. Além das metodologias do curso serem de alcance
@@ -453,7 +462,7 @@
         <section class="companies">
             <div class="your-company">
                 <div>
-                    <img src="empresa.png" alt="">
+                    <img src="img/empresa.png" alt="">
                 </div>
                 <div class="your-company-text">
                     <h2>Para a sua empresa</h2>
@@ -463,7 +472,7 @@
                         de acordo com sua necessidade.
                     </p>
                     <span>Conheça os recursos</span>
-                    <img src="aspas.png  " alt="">
+                    <img src="img/aspas.png  " alt="">
                     <p>
                         O time conseguiu aprender muito e um dos diferenciais para nós foi a língua, 
                         com conteúdo de qualidade em português. Na Alura, a equipe conseguiu estudar 
@@ -474,33 +483,33 @@
                 <div class="partners">
                     <h3>Empresas que já contam com a gente:</h3>
                     <div>
-                        <img src="amil.png" alt="">
-                        <img src="samsung.png" alt="">
-                        <img src="santander.png" alt="">
-                        <img src="cielo.png" alt="">
-                        <img src="algar.png" alt="">
-                        <img src="caixa.png" alt="">
-                        <img src="globo.png" alt="">
+                        <img src="img/amil.png" alt="">
+                        <img src="img/samsung.png" alt="">
+                        <img src="img/santander.png" alt="">
+                        <img src="img/cielo.png" alt="">
+                        <img src="img/algar.png" alt="">
+                        <img src="img/caixa.png" alt="">
+                        <img src="img/globo.png" alt="">
                     </div>
                 </div>  
             </div>  
         </section>
         <section class="mobile">
             <div class="courses">
-                <img src="courses-img" alt="">
+                <img src="img/courses-img" alt="">
                <h3>Já são</h3>
                 <h2>1024 cursos</h2>
                 <h3>com laçamentos toda semana.</h3>
             </div>
             <div class="app">
-                <img src="app-img" alt="">
+                <img src="img/app-img" alt="">
                <h3>Aplicativos para</h3>
                 <h2>Android e iOS</h2>
                 <h3>Baixe e estudo offline em qualquer lugar.</h3>
             </div>
             <div class="download">
-                <img src="google-app.png" alt="">
-                <img src="app-store.png" alt="">
+                <img src="img/google-app.png" alt="">
+                <img src="img/app-store.png" alt="">
             </div>
         </section>
         <section class="packages">
@@ -508,7 +517,7 @@
                 <h2>Sabe quando você pode começar? Agora!</h2>
                 <div class="package">
                     <div class="package-logo">
-                        <img src="package-img-1.png" alt="">
+                        <img src="img/package-img-1.png" alt="">
                         <h3>PREMIUM</h3>
                     </div>
                     <div class="package-price">
@@ -528,7 +537,7 @@
                 </div>
                 <div class="package">
                     <div class="package-logo">
-                        <img src="package-img-2.png" alt="">
+                        <img src="img/package-img-2.png" alt="">
                         <h3>PREMIUM PLUS</h3>
                     </div>
                     <div class="package-price">
@@ -548,7 +557,7 @@
                 </div>
                 <div class="package">
                     <div class="package-logo">
-                        <img src="package-img-3.png" alt="">
+                        <img src="img/package-img-3.png" alt="">
                         <h3>MAX</h3>
                     </div>
                     <div class="package-price">
@@ -570,27 +579,27 @@
             <div class="package-footer">
                 <span><a href="#">Procurando planos para empresas? →</a></span>
                 <div class="benefits">
-                    <img src="calendar.png" alt="">
+                    <img src="img/calendar.png" alt="">
                     <p>Acesso por 1 ano</p>
                 </div>
                 <div class="benefits">
-                    <img src="moon.png" alt="">
+                    <img src="img/moon.png" alt="">
                     <p>Estude 25h/dia onde e quando quiser</p>
                 </div>
                 <div class="benefits">
-                    <img src="arrows.png" alt="">
+                    <img src="img/arrows.png" alt="">
                     <p>Novos cursos toda semana</p>
                 </div>
             </div>
 
         </section>
     </main>
-    <footer class="container">
+    <footer>
         <section class="about">
             <div class="crators">
-                <img src="alura-ft-logo.png" alt="">
+                <img src="img/alura-ft-logo.png" alt="">
                 <p>POWERED BY</p>
-                <img src="caelum.png" alt="">
+                <img src="img/caelum.png" alt="">
                 <p>AOVS Sistemas de Informática</p>
                 <p>S.A</p>
                 <p>CNPJ 05.555.382/0001-33</p>
@@ -615,24 +624,24 @@
                 <div class="networks">
                     <h3>NOSSAS REDES E APPS</h3>
                     <div class="social-network"> 
-                        <a href="#"><img src="youtube.png" alt=""></a>
-                        <a href="#"><img src="facebook.png" alt=""></a>
-                        <a href="#"><img src="twitter.png" alt=""></a>
-                        <a href="#"><img src="hipsters.png" alt=""></a>
-                        <a href="#"><img src="instagram.png" alt=""></a>
-                        <a href="#"><img src="google-play.png" alt=""></a>
-                        <a href="#"><img src="app-store.png" alt=""></a>
+                        <a href="#"><img src="img/youtube.png" alt=""></a>
+                        <a href="#"><img src="img/facebook.png" alt=""></a>
+                        <a href="#"><img src="img/twitter.png" alt=""></a>
+                        <a href="#"><img src="img/hipsters.png" alt=""></a>
+                        <a href="#"><img src="img/instagram.png" alt=""></a>
+                        <a href="#"><img src="img/google-play.png" alt=""></a>
+                        <a href="#"><img src="img/app-store.png" alt=""></a>
                     </div>
                 </div>
                 <div class="contact">
                     <a href="#">
-                        <img src="tel.png" alt="">
+                        <img src="img/tel.png" alt="">
                         <h3>FALE CONOSCO</h3>
                         <p>Dúvida, crítica, sugestão ou elogio?</p>
                         <span>Entre em contato!</span>
                     </a>
                     <a href="#">
-                        <img src="planos.png" alt="">
+                        <img src="img/planos.png" alt="">
                         <h3>EMPRESA? GOVERNO?</h3>
                         <p>Planos corporativos para o seu time.</p>
                         <span>Saiba mais</span>
@@ -745,7 +754,56 @@
                 </div>
             </div>          
         </section>
-        <section class="alura-group"></section>
+        <section class="alura-group">
+            <div class="caelum-group">
+                <h2>Grupo Caelum Alura</h2>
+            </div>
+            <div class="box-group">
+                <h3>EDUCAÇÃO</h3>
+                <a href="#">
+                    <img src="img/caelum.png" alt="">
+                    <p>Caelum</p>
+                </a>
+                <a href="#">
+                    <img src="img/casa-do-codigo.png" alt="">
+                    <p>Cada do Código</p>
+                </a>
+            </div>
+            <div class="box-group">
+                <h3>EDUCAÇÃO ONLINE</h3>
+                <a href="#">
+                    <img src="img/alura-education.png" alt="">
+                    <p>Alura</p>
+                </a>
+                <a href="#">
+                    <img src="img/alura-start.png" alt="">
+                    <p>Alura Start</p>
+                </a>
+                <a href="#">
+                    <img src="img/musicdot.png" alt="">
+                    <p>MusicDot</p>
+                </a>
+                <a href="#">
+                    <img src="img/alura-lingua.png" alt="">
+                    <p>Alura Língua</p>
+                </a>
+            </div>
+            <div class="box-group">
+                <h3>COMUNIDADE</h3>
+                <a href="#">
+                    <img src="img/hipsters.png" alt="">
+                    <p>Hipsters ponto Tech</p>
+                </a>
+                <a href="#">
+                    <img src="img/hipsters2.png" alt="">
+                    <p>Hipsters ponto Jobs</p>
+                </a>
+                <a href="#">
+                    <img src="img/guj.png" alt="">
+                    <p>GUJ</p>
+                </a>
+            </div>
+        </section>
     </footer>
-</body>
+    </body>
 </html>

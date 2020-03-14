@@ -140,11 +140,29 @@ header .main-menu .login .register  a:hover{
 /* ========== Upper ========== */
 .upper{
     background-color: #2a7ae4;
-}
-.upper div{
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
-    background-position: 100% 0;
+    background-position: 100% 5%;
 }
-
+.upper div{
+}
+.upper div .top-background{
+    width: 100%;
+    float: left;
+}
+.upper div .top-background .top-text{
+    width: 100%;
+    float: left;
+}
+.upper div .top-background .top-text h1{
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 1.38;
+    letter-spacing: -.3px;
+    color: #fff;
+}
 /* ========== /Upper ========== */
+.upper div .top-cards{
+    width: 100%;
+    float: left;
+}

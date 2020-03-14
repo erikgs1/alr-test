@@ -136,3 +136,15 @@ header .main-menu .login .register  a:hover{
     color: white !important;
 }
 /* ========== /Header ========== */
+
+/* ========== Upper ========== */
+.upper{
+    background-color: #2a7ae4;
+}
+.upper div{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+/* ========== /Upper ========== */

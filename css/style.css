@@ -13,6 +13,9 @@ header, section, footer{
 body{
     font-family: 'Open Sans', sans-serif;
 }
+ul li{
+    list-style-type: none;
+}
 /* ========== /Presets ========== */
 
 /* ========== Header ========== */
@@ -153,6 +156,7 @@ header .main-menu .login .register  a:hover{
 .upper div .top-background .top-text{
     width: 100%;
     float: left;
+    padding: 108px 0 100px;
 }
 .upper div .top-background .top-text h1{
     font-size: 41px;
@@ -161,8 +165,31 @@ header .main-menu .login .register  a:hover{
     letter-spacing: -.3px;
     color: #fff;
 }
-/* ========== /Upper ========== */
+.upper div .top-background .top-text h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+
+}
 .upper div .top-cards{
     width: 100%;
     float: left;
 }
+.upper div .top-cards ul{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ .card-body{
+    max-width: calc(25% - 8px);
+    width: 25%;
+    height: 137px;
+    margin: 0 0 10px 10px;
+    float: left;
+    background-color: #fff;
+}
+.upper div .top-cards ul .card-no-left{
+    margin-left: 0;
+}
+/* ========== /Upper ========== */

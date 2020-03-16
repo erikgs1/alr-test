@@ -181,7 +181,7 @@ header .main-menu .login .register  a:hover{
     margin: 0;
     padding: 0;
 }
- .card-body{
+.upper div .top-cards ul .card-body{
     max-width: calc(25% - 8px);
     width: 25%;
     height: 137px;

@@ -16,6 +16,31 @@ body{
 ul li{
     list-style-type: none;
 }
+/* ---- Text color ---- */
+.txt-yellow{
+    color:#ffba05;
+}
+.txt-green{
+    color: #00c86f
+}
+.txt-light-blue{
+    color: #6bd1ff;
+}
+.txt-light-red{
+    color: #f16165;
+}
+.txt-light-wine{
+    color: #dc6ebe;
+}
+.txt-purple{
+    color: #6b5be2;
+}
+.txt-light-green{
+    color: #9cd33b;
+}
+.txt-orange{
+    color: #ff8c2a;
+}
 /* ========== /Presets ========== */
 
 /* ========== Header ========== */
@@ -191,5 +216,29 @@ header .main-menu .login .register  a:hover{
 }
 .upper div .top-cards ul .card-no-left{
     margin-left: 0;
+}
+.upper div .top-cards ul .card-body .card-title{
+    margin: 15px;
+}
+.upper div .top-cards ul .card-body .card-title a{
+    text-decoration: none;
+}
+.upper div .top-cards ul .card-body img{
+    width:15%;
+    float: left;
+}
+.upper div .top-cards ul .card-body .card-title p,h4{
+    margin: 0 0 0 50px;
+}
+.upper div .top-cards ul .card-body .card-links{
+    margin: 35px 15px 0 15px;
+}
+.upper div .top-cards ul .card-body .card-links a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #4a535a;
+}
+.upper div .top-cards ul .card-body .card-links a:hover{
+    text-decoration: underline;
 }
 /* ========== /Upper ========== */

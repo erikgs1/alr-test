@@ -231,7 +231,7 @@ header .main-menu .login .register  a:hover{
     margin: 0 0 0 50px;
 }
 .upper div .top-cards ul .card-body .card-links{
-    margin: 35px 15px 0 15px;
+    margin: 25px 15px 0 15px;
 }
 .upper div .top-cards ul .card-body .card-links a{
     font-size: 12px;
@@ -242,3 +242,29 @@ header .main-menu .login .register  a:hover{
     text-decoration: underline;
 }
 /* ========== /Upper ========== */
+
+/* ========== Main ========== */
+main .features{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+main .features .features-main{
+    width: 50%;
+    float: left;
+}
+main .features .features-main h2{
+    font-size: 28.5px;
+    color: #4a535a;
+    font-weight: 700;
+    margin: 20px 0 5px;
+}
+main .features .features-main span{
+    font-size: 18px;
+    margin-left: 36px;
+    color: #4a535a;
+}
+main .features .features-main .features-card img{
+    width: 46px;
+}
+/* ========== /Main ========== */

@@ -253,6 +253,9 @@ main .features .features-main{
     width: 50%;
     float: left;
 }
+main .features .features-main ul{
+    padding: 0;
+}
 main .features .features-main h2{
     font-size: 28.5px;
     color: #4a535a;
@@ -264,7 +267,50 @@ main .features .features-main span{
     margin-left: 36px;
     color: #4a535a;
 }
-main .features .features-main .features-card img{
-    width: 46px;
+main .features .features-main .features-card{
+    width: 485px;    
+    border: solid 1px #eff1f9;
+    float: left;
+    margin-top: 25px;
+    box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
 }
+main .features .features-main .features-card::before{
+    width: 3px;
+    height: 40px;
+    opacity: .9;
+    top: auto;
+    bottom: 20px;
+    left: -2px;
+    -webkit-transform: none;
+    transform: none;
+}
+
+main .features .features-main .features-card .features-card-content {
+    width: 100%;
+    padding: 20px;
+    float: left;
+}
+main .features .features-main .features-card .features-card-content li img{
+    width: 46px;
+    float: left;
+    margin: 25px  42px 0 10px ;
+}
+main .features .features-main .features-card .features-card-content .features-card-text{
+    margin-top: 8px;
+}
+main .features .features-main .features-card .features-card-content .features-card-text h3{
+    font-size: 16px;
+    color: #4a535a;
+    margin: 0;
+}
+main .features .features-main .features-card .features-card-content .features-card-text p{
+    font-size: 14px;
+    color: #4a535a;
+    margin: 10px 0 0 0;
+    line-height: 1.57;
+    padding-right: 10px;
+    width: 77%;
+    float: right;
+}
+
 /* ========== /Main ========== */

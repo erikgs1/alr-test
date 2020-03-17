@@ -247,7 +247,7 @@ header .main-menu .login .register  a:hover{
 main .features{
     width: 100%;
     float: left;
-    margin-top: 20px;
+    margin-top: 65px;
 }
 main .features .features-main{
     width: 50%;
@@ -312,5 +312,32 @@ main .features .features-main .features-card .features-card-content .features-ca
     width: 77%;
     float: right;
 }
-
+main .vid-features{
+    width: 50%;
+    float: left;
+}
+main .vid-features video{
+    width: 100%;
+    float: left;
+    background-color: blue;
+    border: 15px solid #fff;
+    box-shadow: 4px 4px 20px 0 rgba(120,135,182,.2);
+}
+main .vid-features video source{
+    width: 100%;
+    background-color: #fff;
+    height: 100px;
+}
+main .vid-features a{
+    margin: 50px 184px;
+    float: left;
+    padding: 20px 42px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: linear-gradient(to left,#45a6ff,#5daeff);
+    box-shadow: 0 5px 10px 0 rgba(38,94,142,.2);
+    color: #f7f7f9;
+    text-decoration: none;
+}
 /* ========== /Main ========== */

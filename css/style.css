@@ -172,8 +172,6 @@ header .main-menu .login .register  a:hover{
     background-repeat: no-repeat;
     background-position: 100% 5%;
 }
-.upper div{
-}
 .upper div .top-background{
     width: 100%;
     float: left;
@@ -321,6 +319,7 @@ main .vid-features video{
     float: left;
     border: 15px solid #fff;
     box-shadow: 4px 4px 20px 0 rgba(120,135,182,.2);
+    outline: none;
 }
 main .vid-features video source{
     width: 100%;
@@ -357,17 +356,95 @@ main .formations .formatios-img{
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
     float: left;
 }
-main .formations h3{
+main .formations .formations-head h3{
     font-size: 20px;
     font-weight: 500;
     color: #4a535a;
     margin: 0 0 0 9%;
     padding: 15px 0 0 0;
 }
-main .formations h2{
+main .formations .formations-head h2{
     font-size: 30px;
     font-weight: 500;
     color: #4a535a;
     margin: 0 0 0 9%
+}
+main .formations .formations-body{
+    width: 100%;
+    float: left;
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+main .formations .formations-cards{
+    width: 30%;
+    float: left;
+    margin: 0 30px 20px 0; 
+    min-height: 600px;
+    border: 1px solid #EFF1F9;
+    box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
+    padding: 30px;
+}
+main .formations .formations-cards .formations-cards-title img{
+    width: 33px;
+    float: left;
+}
+main .formations .formations-cards .formations-cards-title h4{
+    font-size: 18px;
+    padding: 6px 0 20px 0px;
+}
+main .formations .formations-cards .formations-links span{
+    font-size: 11px;
+    font-weight: bold;
+    color: #4a535a;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 10px 0;
+}
+/* ====== Cor dos traços em baixo do subtitulo "Formações" */
+main .formations .formations-cards .formations-links span::after{
+    position: absolute;
+    width: 28px;
+    content: '';
+    display: block;
+    height: 3px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+main .formations .formations-cards .formations-links .trace-yellow::after{
+background-color: #ffba05;
+}
+main .formations .formations-cards .formations-links .trace-green::after{
+background-color: #00c86f;
+}
+main .formations .formations-cards .formations-links .trace-blue::after{
+    background-color: #6bd1ff;
+}
+main .formations .formations-cards .formations-links .trace-light-red::after{
+    background-color: #f16165;
+}
+main .formations .formations-cards .formations-links .trace-light-wine::after{
+    background-color: #dc6ebe;
+}
+main .formations .formations-cards .formations-links .trace-light-green::after{
+    background-color: #9cd33b;
+}
+main .formations .formations-cards .formations-links .trace-purple::after{
+    background-color: #6b5be2;
+}
+main .formations .formations-cards .formations-links .trace-orange::after{
+    background-color: #ff8c2a;
+}
+/* ====== Cor dos traços em baixo do subtitulo "Formações" */
+main .formations .formations-cards .formations-links a{
+    width: 100%;
+    color: #4a535a;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 7px 0;
+}
+main .formations .formations-cards .formations-links a:hover{
+    text-decoration: underline;
 }
 /* ========== /Main ========== */

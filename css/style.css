@@ -319,7 +319,6 @@ main .vid-features{
 main .vid-features video{
     width: 100%;
     float: left;
-    background-color: blue;
     border: 15px solid #fff;
     box-shadow: 4px 4px 20px 0 rgba(120,135,182,.2);
 }

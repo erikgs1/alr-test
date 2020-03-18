@@ -242,9 +242,9 @@ header .main-menu .login .register  a:hover{
 /* ========== /Upper ========== */
 
 /* ========== Main ========== */
+
 main .features{
     width: 100%;
-    float: left;
     margin-top: 65px;
 }
 main .features .features-main{
@@ -446,5 +446,10 @@ main .formations .formations-cards .formations-links a{
 }
 main .formations .formations-cards .formations-links a:hover{
     text-decoration: underline;
+}
+main  .graduates{
+    width: 100%;
+    left: 0;
+    background-image: linear-gradient(265deg,#43cbff,#688cff);
 }
 /* ========== /Main ========== */

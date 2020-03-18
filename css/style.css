@@ -339,5 +339,36 @@ main .vid-features a{
     box-shadow: 0 5px 10px 0 rgba(38,94,142,.2);
     color: #f7f7f9;
     text-decoration: none;
+    transition: all 0.2s ease;
+}
+main .formations {
+    margin: 10% 0 0 0 ;
+}
+main .formations .formatios-img{
+    content: '';
+    display: block;
+    width: 85px;
+    height: 85px;
+    background-image: url(../img/img-formations.png);
+    background-repeat: no-repeat;
+    background-size: 42px;
+    background-position: 25px 21px;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
+    float: left;
+}
+main .formations h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a535a;
+    margin: 0 0 0 9%;
+    padding: 15px 0 0 0;
+}
+main .formations h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #4a535a;
+    margin: 0 0 0 9%
 }
 /* ========== /Main ========== */

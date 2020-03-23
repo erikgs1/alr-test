@@ -625,4 +625,47 @@ main .companies .partners ul{
 main .companies .partners img{
     max-width: 100%;
 }
+main .mobile{ 
+    width: 100%;   
+    background-image: linear-gradient(265deg,#43cbff,#688cff);
+    margin-top: 150px;
+}
+main .mobile .courses,.app,.download{
+    width: 33%;
+    float: left;
+    color: #fff;
+    padding: 50px 0 50px 0;
+}
+main .mobile h2{
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+main .mobile h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+main .mobile .courses{
+    padding: 50px 0 50px 0;
+}
+main .mobile .courses img{
+    margin-bottom: 20px;
+}
+main .mobile .app  img{
+    margin-bottom: 20px;
+}
+main .mobile .download{
+    padding: 202px 0 0;
+}
+main .mobile .download a{
+    width: 42%;
+    float: left;
+    margin-left: 28px;
+}
+main .mobile .download a img{
+    max-width: 100%;
+    float: left;
+}
 /* ========== /Main ========== */

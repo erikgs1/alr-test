@@ -668,4 +668,36 @@ main .mobile .download a img{
     max-width: 100%;
     float: left;
 }
+main .packages{
+    width:100%;
+    float: left;
+    background-color: #f5f6fd;
+}
+main .packages .packages-options{
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+    text-align: center;
+    color: #4a535a;
+}
+main .packages .packages-options h2{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+main .packages .packages-options .package{
+    width: 33%;
+    max-width: 380px;
+    float: left;
+    background-color: #fff;
+    padding-top: 32px;
+}
+main .packages .packages-options .package-premium{
+    margin-left: 2.5%;
+}
+
+main .packages .packages-options .package-plus{
+    box-shadow: 0 0 10px 0 rgba(120,135,182,.4);
+    border-top: 7px solid #008FFF;
+    z-index: 1;
+}
 /* ========== /Main ========== */

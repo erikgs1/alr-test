@@ -801,3 +801,100 @@ main .packages .package-footer .benefits-arrow{
     padding-left: 80px;
 }
 /* ========== /Main ========== */
+
+/* ========== Footer ========== */
+footer{
+    width: 100%;
+    float: left;
+    margin-top: 76px;
+}
+footer .creators{
+    width:18%;
+    float: left;
+    text-decoration: none;
+}
+footer .creators img{
+    margin-top: 15px;
+    opacity: 0.45;
+}
+footer .creators p{
+    font-size: 11px;
+    color: #989898;
+    line-height: 1.5;
+}
+footer .shortcuts{
+    width:15%;
+    float: left;
+}
+footer .shortcuts a{
+    text-decoration: none;
+    color: #9898a6;
+    margin: 12px 0 25px;
+    font-size: 12px;
+    display: block;
+}
+footer .news{
+    width:28%;
+    float: left;
+}
+footer .news h3{
+    font-size: 12px;
+    color: #9898a6;
+    margin-bottom: 7px;
+}
+footer .news input{
+    width: 70%;
+    height: 40px;
+    font-size: 1em;
+    padding-left: .5em;
+    border: 2px solid #9898a6;
+    vertical-align: middle;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    color: #9898A6;
+    float: left;
+    outline: none;
+}
+/* Color placeholder Input */
+::-webkit-input-placeholder {
+    color: #9898A6
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #9898A6
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #9898A6
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #9898A6
+ }
+/* Color placeholder Input */
+footer .news button{
+    width: 20%;
+    height: 40px;
+    border: 2px solid #9898a6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;    
+    border-left: none;
+}
+footer .news .networks{
+    float: left;
+    margin-top: 20px;
+}
+footer .news .social-network {
+    padding: 5px 0 0 6px;
+}
+footer .news .social-network a img{
+    width: 40px;
+    height: 40px;
+}
+footer .contact{
+    width:39%;
+    float: left;
+}
+/* ========== /Footer ========== */

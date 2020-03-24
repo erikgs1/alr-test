@@ -939,4 +939,30 @@ footer .contact a span{
     margin-top: 5px;
     font-size: 14px;
 }
+footer .courses{
+    width: 100%;
+    float: left;
+}
+footer .courses .courses-title{
+    width: 100%;
+    float: left;
+}
+footer .courses .courses-title h3{
+    font-size: 16px;
+    color: #9898a6;
+    float: none;
+    margin-bottom: 10px;
+}
+footer .courses .courses-line{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+footer .courses .courses-line .category{
+    width: 18%;
+    float: left;
+}
+footer .courses .courses-line .category h4{
+    margin: 0;
+}
 /* ========== /Footer ========== */

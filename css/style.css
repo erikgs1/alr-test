@@ -834,19 +834,20 @@ footer .shortcuts a{
     display: block;
 }
 footer .news{
-    width:28%;
+    width:32%;
     float: left;
 }
 footer .news h3{
     font-size: 12px;
     color: #9898a6;
     margin-bottom: 7px;
+    float: none;
 }
 footer .news input{
-    width: 70%;
+    width: 60%;
     height: 40px;
-    font-size: 1em;
-    padding-left: .5em;
+    font-size: 20px;
+    padding-left: 10px;
     border: 2px solid #9898a6;
     vertical-align: middle;
     border-top-left-radius: 5px;
@@ -874,19 +875,27 @@ footer .news input{
  }
 /* Color placeholder Input */
 footer .news button{
-    width: 20%;
+    width: 15%;
     height: 40px;
     border: 2px solid #9898a6;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     float: left;    
     border-left: none;
+    color: #9898A6;
+    font-weight: 600;
+}
+footer .news button:hover{
+    background-color: #9898a6;
+    color: #fff;
 }
 footer .news .networks{
     float: left;
     margin-top: 20px;
 }
-footer .news .social-network {
+footer .news .social-network a{
+    display: block;
+    float: left;
     padding: 5px 0 0 6px;
 }
 footer .news .social-network a img{
@@ -894,7 +903,40 @@ footer .news .social-network a img{
     height: 40px;
 }
 footer .contact{
-    width:39%;
+    width:35%;
     float: left;
+
+}
+footer .contact a{
+    max-width: 384px;
+    background-color: #F7FAFB;
+    display: block;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    text-decoration: none;
+    color: #9898a6;
+    margin-bottom: 10px;
+    float: left;
+}
+footer .contact a img,h3,p,span{
+    float: left;
+    margin: 0;
+}
+footer .contact a img{
+    margin: 5px 20px 0 0;
+}
+footer .contact a h3{
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+footer .contact a p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+footer .contact a span{
+    text-decoration: underline;
+    margin-top: 5px;
+    font-size: 14px;
 }
 /* ========== /Footer ========== */

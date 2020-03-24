@@ -755,4 +755,49 @@ main .packages .packages-options .package .button a{
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
+main .packages .package-footer{
+    width: 100%;
+    float: left;
+}
+main .packages .package-footer span{
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+    text-align: center;
+    display: block;
+}
+main .packages .package-footer span a{
+    font-size: 16px;
+    color: #4a535a;
+}
+main .packages .package-footer span a:hover{
+    text-decoration: none;
+}
+main .packages .package-footer .benefits{
+    width: 33.3333333333%;
+    background-color: #fff;
+    float: left;
+    border-top: 1px solid rgba(107,170,255,.2);
+    border-bottom: 1px solid rgba(107,170,255,.2);
+    padding: 40px 0 34px;
+}
+main .packages .package-footer .benefits p{
+    margin: 8px 0 0 15px;
+    font-size: 15px;
+    float: left;
+    color: #6baaff;
+}
+main .packages .package-footer .benefits img{
+    width: 32px;
+    float: left;
+}
+main .packages .package-footer .benefits-calendar{
+    padding-left: 110px;
+}
+main .packages .package-footer .benefits-moon{
+    padding-left: 30px;
+}
+main .packages .package-footer .benefits-arrow{
+    padding-left: 80px;
+}
 /* ========== /Main ========== */

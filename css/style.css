@@ -682,22 +682,77 @@ main .packages .packages-options{
 }
 main .packages .packages-options h2{
     font-size: 29px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 main .packages .packages-options .package{
     width: 33%;
-    max-width: 380px;
+    max-width: 380px;   
     float: left;
     background-color: #fff;
     padding-top: 32px;
+    box-shadow: 0 0 10px 0 rgba(120,135,182,.1);
+    border-radius: 1px;
+    position: relative;
+}
+main .packages .packages-options .package h3{
+    font-size: 34px;
 }
 main .packages .packages-options .package-premium{
     margin-left: 2.5%;
+    min-height: 575px;
 }
 
 main .packages .packages-options .package-plus{
     box-shadow: 0 0 10px 0 rgba(120,135,182,.4);
     border-top: 7px solid #008FFF;
     z-index: 1;
+    margin-top: -18px;
+    min-height: 610px;
+}
+
+main .packages .packages-options .package .package-logo h3{
+    font-size: 16px;
+    font-weight: 800;
+}
+main .packages .packages-options .package .package-price{
+    width: 100%;
+    padding: 0 50px 0 145px;
+    float: left;
+}
+main .packages .packages-options .package .package-price span{
+    margin-top: 16px;
+    float: left;
+}
+main .packages .packages-options .package .package-price h3{
+    float: left;
+    margin: 0;
+}
+main .packages .packages-options .package .package-details{
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin: 20px 0 0 70px;
+    font-size: 14px;
+}
+main .packages .packages-options .package .package-details p{
+    margin: 20px 0;
+}
+main .packages .packages-options .package .button{
+    display: block;
+    margin: 50px  0 50px 120px ;
+    float: left;
+}
+main .packages .packages-options .package .button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 22px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 30px;
+    line-height: normal;
+    background-color: #1bd59a;
+    box-shadow: 0 4px 10px 0 rgba(23,23,23,.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 /* ========== /Main ========== */

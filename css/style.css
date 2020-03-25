@@ -821,6 +821,7 @@ footer .creators p{
     font-size: 11px;
     color: #989898;
     line-height: 1.5;
+    float: none;
 }
 footer .shortcuts{
     width:15%;
@@ -942,6 +943,8 @@ footer .contact a span{
 footer .courses{
     width: 100%;
     float: left;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #EBEBEE;
 }
 footer .courses .courses-title{
     width: 100%;
@@ -962,7 +965,64 @@ footer .courses .courses-line .category{
     width: 18%;
     float: left;
 }
-footer .courses .courses-line .category h4{
+footer .courses .courses-line .category a{
+    text-decoration: none;
+    color: #9898a6;
+    font-size: 14px;
+}
+footer .courses .courses-line .category a h4{
     margin: 0;
+}
+footer .courses .course a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #9898a6;
+}
+footer .courses .course a:hover{
+    text-decoration: underline;
+}
+footer .alura-group{
+    width: 100%;
+    float: left;
+}
+footer .alura-group .caelum-group{
+    width: 42%;
+    float: left;
+}
+footer .alura-group .caelum-group h2{
+    display: inline-block;
+    text-decoration: none;
+    color: #657176;
+    letter-spacing: normal;
+    font-size: 18px;
+    margin-top: 54px;
+    font-weight: normal;
+}
+footer .alura-group .box-group{
+    width: 19%;
+    float: left;
+    margin-top: 20px;
+    padding: 15px;
+}
+footer .alura-group .box-group a{
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
+}
+footer .alura-group .box-group h3{
+    font-size: 10px;
+    color: #d7e0e5;
+    font-weight: 600;
+    margin-bottom: 19px;
+    float: none;
+}
+footer .alura-group .box-group img{
+    float: left;
+}
+footer .alura-group .box-group p{
+    float: left;
+    font-size: 11px;
+    color: #657176;
+    margin: 8px 0 0 5px;
 }
 /* ========== /Footer ========== */

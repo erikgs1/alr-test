@@ -33,7 +33,8 @@
     }
     .upper{
         background-size: 700px;    
-        background-position: 125% 20%
+        background-position: 125% 20%;
+        padding-bottom: 30px;
     }
     .upper div .top-background .top-text h1{
         font-size: 34px;
@@ -45,5 +46,8 @@
     }
     .upper div .top-background .top-text h3 br{
         display: none;
+    }
+    .upper div .top-cards ul .card-body img{
+        width: 18%;
     }
 }

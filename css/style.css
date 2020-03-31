@@ -17,6 +17,9 @@ body{
 ul li{
     list-style-type: none;
 }
+.d-none{
+    display: none;
+}
 /* ---- Text color ---- */
 .txt-yellow{
     color:#ffba05;

@@ -31,4 +31,19 @@
         padding: 15px 12px 15px;
         margin-top: 0;
     }
+    .upper{
+        background-size: 700px;    
+        background-position: 125% 20%
+    }
+    .upper div .top-background .top-text h1{
+        font-size: 34px;
+    }
+    .upper div .top-background .top-text h3 {
+        font-size: 20px;
+        width: 440px;
+        font-weight: 500;
+    }
+    .upper div .top-background .top-text h3 br{
+        display: none;
+    }
 }

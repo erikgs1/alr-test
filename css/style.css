@@ -4,7 +4,8 @@
 }
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 header, section, footer{
     width: 100%;
@@ -57,6 +58,9 @@ header .header-content{
 }
 header .logo-header{
     width: 10%;
+    float: left;
+}
+header .logo-header a{
     float: left;
 }
 header .logo-header img{
@@ -920,7 +924,7 @@ footer .contact a{
     margin-bottom: 10px;
     float: left;
 }
-footer .contact a img,h3,p,span{
+footer .contact a img, footer .contact h3, footer .contact p, footer .contact span{
     float: left;
     margin: 0;
 }
